@@ -3,6 +3,7 @@ carCanvas.width=200;
 networkCanvas.height=window.innerHeight;
 networkCanvas.width=298;
 
+
 const carCtx=carCanvas.getContext("2d");
 const networkCtx=networkCanvas.getContext("2d");
 const road=new Road(carCanvas.width/2,carCanvas.width*0.9);
